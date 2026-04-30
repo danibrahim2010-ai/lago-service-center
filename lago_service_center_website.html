@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lago Service Center</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #374151;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #4b5563;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1515923162038-3d03f3e57c7a') center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 {
+      font-size: 40px;
+    }
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    button {
+      background: #ef4444;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background: #dc2626;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Lago Service Center</h1>
+  <p>Trusted Auto Repair in Kearny, NJ</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <h1>Reliable Auto Repair You Can Trust</h1>
+  <p>5-Star Rated Local Service</p>
+  <button onclick="location.href='#contact'">Contact Us</button>
+</section>
+
+<section class="container" id="about">
+  <h2>About Us</h2>
+  <p>Lago Service Center is a trusted auto repair shop located in Kearny, New Jersey. With a strong reputation and 5-star reviews, we are committed to providing honest, reliable, and high-quality service to our customers.</p>
+</section>
+
+<section class="container" id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>General Repairs</h3>
+      <p>Complete diagnostics and repairs for all vehicle types.</p>
+    </div>
+    <div class="card">
+      <h3>Oil Changes</h3>
+      <p>Quick and affordable oil change services.</p>
+    </div>
+    <div class="card">
+      <h3>Brake Service</h3>
+      <p>Safe and reliable brake inspections and repairs.</p>
+    </div>
+    <div class="card">
+      <h3>Engine Diagnostics</h3>
+      <p>Accurate troubleshooting using modern tools.</p>
+    </div>
+  </div>
+</section>
+
+<section class="container" id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Address:</strong> 1 Belgrove Dr, Kearny, NJ 07032</p>
+  <p><strong>Phone:</strong> (201) 991-1383</p>
+  <p><strong>Location:</strong> Located in Citgo</p>
+</section>
+
+<footer>
+  <p>&copy; 2026 Lago Service Center | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
